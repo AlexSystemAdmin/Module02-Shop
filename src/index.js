@@ -7,7 +7,7 @@ import './styles/main.scss'
  // core version + navigation, pagination modules:
 import Swiper, { Navigation, Pagination } from 'swiper';
 
-var swiper = Swiper(".offerSwiper", {
+var swiper = new Swiper(".offerSwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: false,
