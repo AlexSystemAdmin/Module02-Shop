@@ -95,6 +95,7 @@ body{
 .main{
     position: relative;
     padding-bottom: 187px;
+    overflow: hidden;
     &__item{
         margin-left: 12rem;
         max-width: 378px;
