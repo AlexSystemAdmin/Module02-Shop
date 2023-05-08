@@ -10,7 +10,7 @@
     <div class="main">
         <header class="header">
             <a href="#" class="logo"></a>
-            <nav>
+            <nav class="header__navigation">
                 <ul class="header__nav">
                     <li class="header__item">
                         <a href="#" class="header__link">Наша продукция</a>
@@ -33,9 +33,13 @@
                 </ul>
             </nav>
             <a href="tel:+79453425555" class="header__tel">+7 945 342 55 55</a>
-            <button href="#" class="header__cart">
-                <span class="header__counter">0</span>
-            </button>
+            <div class="header__buttons">
+                <a href="tel:+79453425555" class="header__phone"></a>
+                <button href="#" class="header__menu"></button>
+                <button href="#" class="header__cart">
+                    <span class="header__counter">0</span>
+                </button>
+            </div>
         </header>
         <div class="container">
             <div class="main__flex">
@@ -46,6 +50,7 @@
                     </h1>
                     <div class="main__item">
                         <p class="description description_size-s">Сеть магазинов полезных продуктов питания,  производство которых основано на&nbsp;принципах и стандартах органического чистых продуктов</p>
+                        <img class="main__imagemobi" src="images/plate.png" alt="">
                         <div class="main__link">
                             <a href="#" class="link">перейти в каталог</a>
                         </div>
@@ -135,7 +140,7 @@
     </section>
     <section class="about">
         <div class="container">
-            <h1 class="title title_block">
+            <h1 class="title title_block title_uniqueness">
                 В чём наша
                 <span class="title__span">уникальность</span>
             </h1>
@@ -182,7 +187,7 @@
                                     <input class="counter__input" type="text" value="0">
                                     <button class="counter__btn counter__plus"></button>
                                 </div>
-                                <a href="#" class="link">В корзину</a>
+                                <a href="#" class="link link_trends">В корзину</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -198,7 +203,7 @@
                                     <input class="counter__input" type="text" value="0">
                                     <button class="counter__btn counter__plus"></button>
                                 </div>
-                                <a href="#" class="link">В корзину</a>
+                                <a href="#" class="link link_trends">В корзину</a>
                             </div>
                         </div>
                       <div class="swiper-slide">
@@ -214,7 +219,7 @@
                                 <input class="counter__input" type="text" value="0">
                                 <button class="counter__btn counter__plus"></button>
                             </div>
-                            <a href="#" class="link">В корзину</a>
+                            <a href="#" class="link link_trends">В корзину</a>
                         </div>
                       </div>
                     </div>
@@ -421,7 +426,7 @@
             <div class="container">
                 <div class="contact-box">
                     <div class="contact-box__item">
-                        <h1 class="title title_block">
+                        <h1 class="title title_block title_contact">
                             Не смогли
                             <span class="title__span">определиться?</span>
                         </h1>
@@ -458,7 +463,7 @@
                 <div class="footer__box">
                     <a href="#" class="logo footer__logo"></a>
                     <div class="footer__info">
-                        <ul class="footer__list">
+                        <ul class="footer__list footer__nav">
                             <li class="footer__item">
                                 <a class="footer__link" href="#">
                                     Наша продукция
