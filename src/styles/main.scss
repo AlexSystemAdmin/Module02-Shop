@@ -1196,6 +1196,7 @@ body{
     margin-top: 6.5rem;
     @media(max-width: $r_mob_500){
         display: block;
+        overflow: hidden;
     }
     &__link{
         padding: 2rem 0;
