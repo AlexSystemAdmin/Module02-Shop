@@ -39,6 +39,13 @@
                 <button href="#" class="header__cart">
                     <span class="header__counter">0</span>
                 </button>
+                <div class="header__dropdown" id="Notification">
+                    <div class="header__cover">
+                        <img class="header__img" src="../src/images/catalog/milk.png" alt="">
+                    </div>
+                    <p class="header__text"> Вы добавили в корзину <a class="header__product" href="#">Молоко топленое</a></p>
+                    <button class="close" type="button" onclick="document.getElementById('Notification').style.visibility='hidden'"></button>
+                </div>
             </div>
         </header>
         <div class="container">
@@ -60,15 +67,33 @@
                     <div class="main__line">
                         <img class="main__image" src="images/plate.png" alt="">
                     </div>
-                    <button class="main__btn main__btn_1" type="button">
+                    <button class="main__btn main__btn_1" type="button" onclick="document.getElementById('FoodOne').style.visibility='visible'">
                         <span class="main__food">Авокадо</span> 134 руб
                     </button>
-                    <button class="main__btn main__btn_2" type="button">
+                    <div class="main__about main__about_1" id="FoodOne">
+                        <h3 class="main__title">Авокадо</h3>
+                        <p class="main__description">Авокадо Молодой, Свежий урожай, 1кг</p>
+                        <p class="main__price">134 руб/кг</p>
+                        <button class="close" type="button" onclick="document.getElementById('FoodOne').style.visibility='hidden'"></button>
+                    </div>
+                    <button class="main__btn main__btn_2" type="button" onclick="document.getElementById('FoodTwo').style.visibility='visible'">
                         <span class="main__food">Картофель</span> 169 руб
                     </button>
-                    <button class="main__btn main__btn_3" type="button">
+                    <div class="main__about main__about_2" id="FoodTwo">
+                        <h3 class="main__title">Картофель</h3>
+                        <p class="main__description">Картофель Молодой, Свежий урожай, 1кг</p>
+                        <p class="main__price">169 руб/кг</p>
+                        <button class="close" type="button" onclick="document.getElementById('FoodTwo').style.visibility='hidden'"></button>
+                    </div>
+                    <button class="main__btn main__btn_3" type="button" onclick="document.getElementById('FoodThree').style.visibility='visible'">
                         <span class="main__food">Томаты</span> 215 руб
                     </button>
+                    <div class="main__about main__about_3" id="FoodThree">
+                        <h3 class="main__title">Томаты</h3>
+                        <p class="main__description">Томат Молодой, Свежий урожай, 1кг</p>
+                        <p class="main__price">215 руб/кг</p>
+                        <button class="close" type="button" onclick="document.getElementById('FoodThree').style.visibility='hidden'"></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,6 +124,13 @@
                       </div>
                       <div class="swiper-slide swiper-slide_white swiper-slide_pasta">
                         <h3 class="swiper-slide__title">Бакалея</h3>
+                        <div class="swiper-slide__hover">
+                            <div class="swiper-slide__text">В наши дни появилась мода на&nbsp;здоровое питание, поэтому на&nbsp;рынке питания разработали органическое молоко. Органическое молоко является продуктом органического животноводства</div>
+                            <a class="swiper-slide__link" href="#">Подробнее</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide swiper-slide_white swiper-slide_steaks">
+                        <h3 class="swiper-slide__title">Мясо, птица</h3>
                         <div class="swiper-slide__hover">
                             <div class="swiper-slide__text">В наши дни появилась мода на&nbsp;здоровое питание, поэтому на&nbsp;рынке питания разработали органическое молоко. Органическое молоко является продуктом органического животноводства</div>
                             <a class="swiper-slide__link" href="#">Подробнее</a>
@@ -188,6 +220,22 @@
                                 <a href="#" class="link link_trends">В корзину</a>
                             </div>
                         </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide__cover">
+                            <img class="swiper-slide__image" src="images/catalog/chicken.jpg" alt="">
+                        </div>
+                        <h3 class="swiper-slide__title">Куриное филе Оссобуко</h3>
+                        <p class="swiper-slide__description">Куриное филе Оссобуко (Ангус) охл скин. В вакумной уапаковке</p>
+                        <p class="swiper-slide__price">1009 руб/кг</p>
+                        <div class="swiper-slide__footer">
+                            <div class="counter">
+                                <button class="counter__btn counter__minus"></button>
+                                <input class="counter__input" type="text" value="0">
+                                <button class="counter__btn counter__plus"></button>
+                            </div>
+                            <a href="#" class="link link_trends">В корзину</a>
+                        </div>
+                      </div>
                       <div class="swiper-slide">
                         <div class="swiper-slide__cover">
                             <img class="swiper-slide__image" src="images/catalog/chicken.jpg" alt="">
