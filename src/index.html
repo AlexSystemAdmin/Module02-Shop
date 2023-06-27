@@ -32,10 +32,21 @@
                     </li>
                 </ul>
             </nav>
+            <div class="header__menu_mobil" id="menu_mobil">
+                <ul class="header__menu_list">
+                    <li><h3><a href="#">Наша продукция</a></h3></li>
+                    <li><h3><a href="#">О компании</a></h3></li>
+                    <li><h3><a href="#">Новинки</a></h3></li>
+                    <li><h3><a href="#">Каталог</a></h3></li>
+                    <li><h3><a href="#">Доставка</a></h3></li>
+                    <li><h3><a href="#">Контакты</a></h3></li>
+                </ul>
+                <div class="close" onclick="document.getElementById('menu_mobil').style.display='none'"></div>
+            </div>
             <a href="tel:+79453425555" class="header__tel">+7 945 342 55 55</a>
             <div class="header__buttons">
                 <a href="tel:+79453425555" class="header__phone"></a>
-                <button href="#" class="header__menu"></button>
+                <button href="#" class="header__menu" onclick="document.getElementById('menu_mobil').style.display='block'"></button>
                 <button href="#" class="header__cart">
                     <span class="header__counter">0</span>
                 </button>
