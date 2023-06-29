@@ -40,7 +40,7 @@ var swiper = new Swiper(".offerSwiper", {
         slidesPerView: 1,
         slidesPerGroup: 1
       },
-      768: {
+      769: {
         slidesPerView: 2,
         slidesPerGroup: 2
       },
@@ -84,7 +84,7 @@ var swiper = new Swiper(".offerSwiper", {
         slidesPerView: 1,
         slidesPerGroup: 1
       },
-      768: {
+      769: {
         slidesPerView: 2,
         slidesPerGroup: 2
       },
