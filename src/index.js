@@ -16,12 +16,12 @@ var swiper = new Swiper(".offerSwiper", {
     keyboard: {
       enabled: true,
     },
-    breakpoints: {
+    /*breakpoints: {
       769: {
         slidesPerView: 3,
         slidesPerGroup: 3,
       },
-    },
+    },*/
     scrollbar: {
       el: ".swiper-scrollbar",
     },
@@ -37,7 +37,7 @@ var swiper = new Swiper(".offerSwiper", {
     breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 1,
+        slidesPerView: 1.35,
         slidesPerGroup: 1
       },
       769: {
@@ -60,12 +60,12 @@ var swiper = new Swiper(".offerSwiper", {
     keyboard: {
       enabled: true,
     },
-    breakpoints: {
+    /*breakpoints: {
       769: {
         slidesPerView: 3,
         slidesPerGroup: 3,
       },
-    },
+    },*/
     scrollbar: {
       el: ".swiper-scrollbar",
     },
@@ -81,7 +81,7 @@ var swiper = new Swiper(".offerSwiper", {
       breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 1,
+        slidesPerView: 1.35,
         slidesPerGroup: 1
       },
       769: {
