@@ -128,9 +128,9 @@ body{
             opacity: 0.8;
         }
         @media (max-width: $r_mob_650){
-            width: 5.2rem;
-            height: 5.2rem;
-            background-size: 2.7rem 2.5rem;
+            width: 4.25rem;
+            height: 4.25rem;
+            background-size: 1.75rem 1.5rem;
         }
         &:hover{
             opacity: 1;
@@ -184,9 +184,9 @@ body{
             cursor: pointer;
         }
         @media (max-width: $r_mob_650){
-            width: 5.7rem;
-            height: 5.7rem;
-            background-size: 2.7rem 2.5rem;
+            width: 4.5rem;
+            height: 4.5rem;
+            background-size: 2rem 1.5rem;
         }
         &:hover{
             opacity: 1;
@@ -222,9 +222,9 @@ body{
             opacity: .8;
         }
         @media(max-width: $r_mob_650){
-            width: 5.7rem;
-            height: 5.7rem;
-            background-size: 2.7rem 2.5rem;
+            width: 4.5rem;
+            height: 4.5rem;
+            background-size: 2rem 1.75rem;
         }
         &:hover{
             background-color: $green;
@@ -245,9 +245,9 @@ body{
             color: $green;
         }
         @media(max-width: $r_mob_650){
-            font-size: 1.2rem;
-            right: 0.9rem;
-            top: 0.9rem;
+            font-size: 1rem;
+            right: 5.9px;
+            top: 4.9px;
         }
     }
     &__dropdown{
@@ -686,6 +686,11 @@ body{
             display: block;
         }
     }
+    &_delivery{
+        @media(max-width: $r_mob_360){
+            line-height: 37px;
+        }
+    }
     &_contact{
         @media(max-width: $r_desk_1099){
             text-align: center;
@@ -812,6 +817,10 @@ body{
         @media(max-width: $r_tab_768){
             margin-left: 0;
             font-size: 1.2rem;
+        }
+        @media(max-width: $r_mob_530){
+            flex-basis: 100%;
+            text-align: center;
         }
     }
 }
@@ -1254,19 +1263,21 @@ body{
     &__btn{
         margin: 0 auto;
         display: flex;
-        font-family: $font-jost;
+        font-family: "Jost", sans-serif;
+        font-size: 1.81rem;
         background-color: transparent;
         border: none;
         text-transform: uppercase;
-        gap: 15px;
-        width: 172px;
+        gap: 14px;
+        width: 197px;
         padding: 0;
-        color: rgba($green, 0.8);
+        color: rgba(39, 48, 15, 0.8);
         margin-top: 6rem;
         align-items: center;
         cursor: pointer;
         margin-bottom: 14.1rem;
-        transition: .3s;
+        transition: 0.3s;
+        justify-content: center;
 
         @media(max-width: $r_tab_768){
             margin-top: 4rem;
@@ -1351,8 +1362,11 @@ body{
         border-radius: 4rem;
         display: block;
         transition: .3s;
-        flex-basis: 150px;
+        flex-basis: 190px;
         text-align: center;
+        @media(max-width: $r_mob_600){
+            flex-basis: 139px;
+        }
         &:hover{
             border: 1px solid rgba($orange, .4);
             color: $orange;
@@ -1370,9 +1384,9 @@ body{
     @media(max-width: $r_desk_1099){
         grid-template-columns: repeat(2, 1fr);
     }
-    /*@media(max-width: 365px){
-        grid-template-columns: repeat(1, 1fr);
-    }*/
+    @media(max-width: $r_mob_530){
+        gap: 10px;
+    }
     &__item{
         border: 1px solid rgba($green, 0.4);
         border-radius: 2rem;
@@ -1383,7 +1397,7 @@ body{
             padding: 2.7rem 3rem 3.8rem 3rem;
         }
         @media(max-width: $r_mob_530){
-            padding: 1.4rem 2rem 1.8rem 2rem;
+            padding: 1.4rem 0.75rem 1.75rem 0.875rem;
         }
         &:hover{
             box-shadow: 0 0 0 2px rgba($green, 0.4) inset;
@@ -1461,6 +1475,10 @@ body{
         align-items: center;
         @media(max-width: $r_desk_1099){
             justify-content: center;
+        }
+        @media(max-width: $r_mob_530){
+            display: block;
+            width: 100%;
         }
     }
 }
@@ -1879,11 +1897,13 @@ body{
         color: #27300f;
         transition: .3s;
         @media(max-width: $r_tab_768){
-            font-size: 3rem;
             margin-bottom: 1.4rem;
+            text-align: center;
+        }
+        @media(max-width: $r_mob_650){
+            font-size: 3.75rem;
         }
         @media(max-width: $r_mob_400){
-            font-size: 4.7rem;
             margin-bottom: 1rem;
         }
         &:hover{
@@ -1896,6 +1916,9 @@ body{
         text-decoration: none;
         color: #27300f;
         transition: .3s;
+        @media(max-width: $r_tab_768){
+            text-align: center;
+        }
         @media(max-width: $r_mob_400){
             font-size: 15.3px;
             margin-bottom: 6.4rem;
