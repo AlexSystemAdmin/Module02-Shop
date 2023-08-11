@@ -9,7 +9,7 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 
 var swiper = new Swiper(".offerSwiper", {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 20,
     centeredSlides: false,
     slidesPerGroupSkip: 1,
     grabCursor: true,
@@ -53,7 +53,7 @@ var swiper = new Swiper(".offerSwiper", {
 
   var swiper = new Swiper(".trendsSwiper", {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 20,
     centeredSlides: false,
     slidesPerGroupSkip: 1,
     grabCursor: true,
