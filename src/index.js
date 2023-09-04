@@ -38,7 +38,8 @@ var swiper = new Swiper(".offerSwiper", {
       // when window width is >= 320px
       320: {
         slidesPerView: 1.35,
-        slidesPerGroup: 1
+        slidesPerGroup: 1,
+        spaceBetween: 15
       },
       769: {
         slidesPerView: 2,
@@ -82,7 +83,8 @@ var swiper = new Swiper(".offerSwiper", {
       // when window width is >= 320px
       320: {
         slidesPerView: 1.35,
-        slidesPerGroup: 1
+        slidesPerGroup: 1,
+        //spaceBetween: 15
       },
       769: {
         slidesPerView: 2,
